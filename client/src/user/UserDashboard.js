@@ -78,7 +78,7 @@ const Dashboard = () => {
                       <div key={i}>
                         <h6>Product name: {p.name}</h6>
                         <h6>Product price: INR {p.price}</h6>
-                        <h6>Purchased date: {moment(p.createdAt).fromNow()}</h6>
+
                       </div>
                     );
                   })}
@@ -109,3 +109,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+// <h6>Purchased date: {moment(p.createdAt).fromNow()}</h6>

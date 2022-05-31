@@ -45,12 +45,21 @@ const ManageProducts = () => {
           <h2 className='text-center'>Total {products.length} products</h2>
           <hr />
           <ul className='list-group'>
+          <li className='list-group-item d-flex justify-content-between align-items-center'>
+          <strong>Product Name</strong>
+          <strong>Product Price</strong>
+          <strong>Product InStock</strong>
+          <strong> </strong>
+          <strong> </strong>
+          </li>
             {products.map((p, i) => (
               <li
                 key={i}
                 className='list-group-item d-flex justify-content-between align-items-center'
               >
                 <strong>{p.name}</strong>
+                <strong>{p.price} INR</strong>
+                <strong>{p.quantity}</strong>
                 <Link to={`/admin/product/update/${p._id}`}>
                   <span className='badge badge-warning badge-pill'>Update</span>
                 </Link>

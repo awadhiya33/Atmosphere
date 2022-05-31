@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashraf-kabir/mern-ecommerce.git"
+    "url": "git+https://github.com/siekk33/Atmosphere.git"
   },
   "keywords": [],
-  "author": "Ashraf Kabir",
+  "author": "Abhishek",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",

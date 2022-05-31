@@ -172,7 +172,8 @@ const Checkout = ({ products, setRun = (f) => f, run = undefined }) => {
       className='alert alert-info'
       style={{ display: success ? '' : 'none' }}
     >
-      Thanks! Your payment was successful!
+      <h2>Thanks! Your payment was successful!</h2>
+      <h2>Your order is placed successfully!</h2>
     </div>
   );
 
@@ -181,7 +182,7 @@ const Checkout = ({ products, setRun = (f) => f, run = undefined }) => {
 
   return (
     <div>
-      <h2>Total: INR {getTotal()}</h2>
+
       {showLoading(data.loading)}
       {showSuccess(data.success)}
       {showError(data.error)}
@@ -191,3 +192,5 @@ const Checkout = ({ products, setRun = (f) => f, run = undefined }) => {
 };
 
 export default Checkout;
+
+//<h2>Total: INR {getTotal()}</h2>
