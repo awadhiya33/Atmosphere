@@ -13,8 +13,8 @@ const Home = () => {
 
   const loadProductsBySell = () => {
     getProducts('sold').then((data) => {
-      if (data.err) {
-        setError(data.err);
+      if (data.error) {
+        setError(data.error);
       } else {
         setProductsBySell(data);
       }
