@@ -1,2 +1,2 @@
 # Atmosphere
-this is an ecommerce website
+Running on https://atmosphere1.herokuapp.com
